@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pai{
+	background-color: red;
+}
+.p1{
+	display: flex;
+	flex-direction: row;
+	height: 300px;
+	
+}
+.logo{
+	margin-top: 30px;
+	margin-left: 20px;
+	height: 100px;
+	width: 30%;
+
+}
+.p2{
+	display: flex;
+	justify-content:flex-end;
+	width:70%;
+}
+.lupa{
+	margin-top: 100px;
+	
+}
+.pesquisa{
+	margin-top: 100px;
+	background-color: white;
+	border-radius: 20px;
+	height: 50px;
+	width: 65%;
+	margin-right: 50px;
+}
+#pesquisa1:focus{
+	outline: 0;
+}
+#pesquisa1{
+	font-size: 45px;
+	border: 0px;
+	border-radius: 20px;
+}
+.p3{
+	justify-content:space-around;
+	display: flex;
+	width: 100%;
+}
+.img{
+	width: 100%;
+	justify-content:space-around;
+	display: flex;
+}
+.t1{
+	margin-top: 10px;
+
+}
+.t2{
+	margin-top:30px;
+}
+h1{
+	color: white;
+}
+.monsterfit{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.treinos{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	align-items: center;
+	height: 230px;
+	width: 450px;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+}
+.horarios{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	align-items: center;
+	height: 230px;
+	width: 450px;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+}
+.precos{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	align-items: center;
+	height: 230px;
+	width: 450px;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+}
+.monsterfit2{
+	display: flex;
+	flex-direction: row;
+}
+.com{
+	margin-top: 40px;
+	color: white;
+	font-size: 30px;
+	margin-left: 40px;
+}
+.cabe{
+	margin-left: 100px;
+}
+.comentarios1{
+	background-color: white;
+	margin-bottom: 50px;
+	margin-top: 70px;
+	display: flex;
+	height: 280px;
+	width: 450px;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+}
+.comentarios2{
+	background-color: white;
+	margin-bottom: 50px;
+	margin-top: 70px;
+	display: flex;
+	height: 180px;
+	width: 680px;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+}
+.pai2{
+	background-color: #444444;
+	height: 100%;
+	width: 100%;
+}
+.cab{
+	display: flex;
+	flex: row;
+}
+#cadastrese{
+	color: white;
+	margin-top: 15%;
+	margin-left:20%;
+}
+.tc{
+	width:70%;
+	margin-top: 100px;
+}
+.cadastros{
+	margin-top: 100px;
+	flex-direction: column;
+	display: flex;
+	
+}
+.em{
+	margin-left: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.border{
+	margin-left: 300px;
+	margin-top: 30px;
+	width: 500px;
+	height: 40px;
+	border: 0px;
+	border-radius: 30px;
+}
+.planos{
+	margin-top:100px; 
+	margin-right: 100px
+}
+.em2{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+#basic1{
+}
+#basic2{
+	font-size: 18px;
+}
+#plus1{
+}
+#plus2{
+	
+	font-size: 18px;
+}
+#gold1{
+}
+#gold2{
+	font-size: 18px;
+}
+#master1{
+}
+#master2{
+	font-size: 18px;
+}
+#supreme1{
+}
+#supreme2{
+	font-size: 18px;
+}
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape p {
+    margin-bottom: 10px;
+}
+
+.rodape a {
+    color: #66cdaa;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+}
